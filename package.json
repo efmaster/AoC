@@ -1,12 +1,26 @@
 {
-  "name": "2023",
+  "name": "aoc",
   "version": "1.0.0",
-  "description": "",
+  "description": "Advent of Code - solutions",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "aocrunner day",
+    "format": "prettier -w src",
+    "update:readme": "aocrunner update:readme"
   },
-  "author": "",
+  "keywords": [
+    "aoc"
+  ],  
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "aocrunner": "^1.9.6",
+    "prettier": "^2.8.0"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=16.13.0"
+  },
+  "author": "efmaster",
   "license": "ISC"
 }
