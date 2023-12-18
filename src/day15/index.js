@@ -1,16 +1,12 @@
 import run from "aocrunner";
 
-const parseInput = (rawInput) => rawInput;
-
 const part1 = (input) => {
   return input.split(',').reduce((result, c) => 
       result + c.split('').reduce((curr, val) => ((curr + val.charCodeAt()) * 17) % 256, 0)
       , 0);
 };
 
-const part2 = (rawInput) => {
-  const input = parseInput(rawInput);
-
+const part2 = (input) => {
   return;
 };
 
